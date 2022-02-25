@@ -1,4 +1,4 @@
-enum Suite {
+export enum Suite {
   Spades = 'Spades',
   Hearts = 'Hearts',
   Clubs = 'Clubs',
@@ -7,7 +7,7 @@ enum Suite {
 
 export type Rank = "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | "J" | "Q" | "K" | "A";
 
-class Card {
+export class Card {
   rank: Rank
   suite: Suite
   constructor(rank: Rank, suite: Suite) {
@@ -27,3 +27,4 @@ const generateDeck = () => {
 // Given the basic Card class, create a deck of cards
 // Implement a Shuffle Function (to size)
 // Implement a draw (to size)
+// Unit Tests?
