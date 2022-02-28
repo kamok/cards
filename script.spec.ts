@@ -1,5 +1,4 @@
-import { Card, Suite } from './script';
-
-it('works', () => {
-  expect(new Card('2', Suite.Diamonds)).toBeTruthy();
+import { Card, Deck } from "./script";
+it("creates a deck of 52 unique cards", () => {
+  const deck = new Deck();
 });
