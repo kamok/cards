@@ -22,7 +22,7 @@ export class Deck {
     throw "Not implemented";
   }
 
-  draw(n: Number): Card[] {
+  draw(number): Card[] {
     throw "Not implemented";
   }
 }
